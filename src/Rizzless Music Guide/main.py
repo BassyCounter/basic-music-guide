@@ -157,7 +157,7 @@ def gather_vocab():
 
 
 def main():
-    print("Welcome to the Rizzless Guitar Guide!\n")
+    print("Welcome to the Rizzless Music Guide!\n")
     user_input = input(main_menu_prompt).strip().lower().title()
 
     while user_input != 'Quit':
