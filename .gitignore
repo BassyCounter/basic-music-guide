@@ -1,0 +1,4 @@
+.idea/
+__pycache__/
+logs/
+src/package folder/__pycache__/
