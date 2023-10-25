@@ -2,6 +2,6 @@
 
 A repo for housing projects related to music.
 
-## **Guitar Guide** ***(actual name TBA)***
+## **Rizzless Music Guide**
 
-A simple Python script created to assist the user with music theory, focusing on applications for guitar.
+A simple text-based Python script created to assist the user with music theory, focusing on applications for guitar.
