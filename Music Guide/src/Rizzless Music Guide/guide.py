@@ -35,6 +35,7 @@ def hide():
     topic = input('Enter topic you wish to remove from topic review: ').strip().lower().title()
     if topic in selected_topics:
         del selected_topics[topic]
+        print(f'{topic} has been successfully removed from topic review.')
     else:
         print('Topic is either misspelled or has not been searched for.')
 
