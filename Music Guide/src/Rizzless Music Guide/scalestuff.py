@@ -17,7 +17,22 @@ def formatted_scale_degrees():
     print()
     print(format_string.format(scale='Minor Pentatonic', degrees='1 \u266D3 4 5 \u266D7'))
     print()
+    print()
 
+
+scale_degrees_prompt = ('Scale Name           Scale Degrees       \n'
+                        '-----------------------------------------\n'
+                        'Major                1 2 3 4 5 6 7       \n'
+                        '\n'
+                        'Major Pentatonic     1 2 3 5 6           \n'
+                        '\n'
+                        'Minor                1 2 ♭3 4 5 ♭6 ♭7    \n'
+                        '\n'
+                        'Melodic Minor        1 2 ♭3 4 5 6 7      \n'
+                        '\n'
+                        'Harmonic Minor       1 2 ♭3 4 5 ♭6 7     \n'
+                        '\n'
+                        'Minor Pentatonic     1 ♭3 4 5 ♭7         \n')
 
 scales_prompt = ('Scale options:\n'
                  '  (Major)\n'
