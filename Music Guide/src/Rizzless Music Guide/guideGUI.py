@@ -149,6 +149,7 @@ def save_warning():
 
 def text_box_fonts():
     # fixme try to figure out a way to make the new window not hide behind the main one
+    # scratch4.py has more fonts to select from
     fonts = ['Consolas', 'Lucida Console', 'Courier New', 'Terminal', 'MS Gothic', 'NSimSun']
 
     settings_window = ctk.CTkToplevel(app)
