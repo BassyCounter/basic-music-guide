@@ -7,7 +7,6 @@ import modestuff
 import intervalstuff
 import guide
 
-
 def add_to_review():
     text_box.configure(state='normal')
     if scalestuff.major_scale_prompt in text_box.get('0.0', 'end'):
@@ -55,7 +54,7 @@ def add_to_review():
 
 
 def reset_save_button():
-    if save_button.cget('text') == 'Topic reference staged.':
+    if save_button.cget('text') == 'Topic Staged.':
         save_button.configure(text='Stage topic reference for review file?')
 
 
