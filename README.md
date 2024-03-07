@@ -1,4 +1,4 @@
-# **Rizzless Music Guide**
+# **Basic Music Guide**
 
 A simple Python project with a text-based version and a GUI created to assist the user with music theory, focusing on 
 applications for guitar.
@@ -33,7 +33,7 @@ project's dependencies that need to be installed are completely isolated from ot
 This will ensure that nothing will break, for the code of this project, as well as for code of other projects that may 
 be installed in the future. You can achieve this with the following steps:
 1. First, extract all of the files. You can place the extracted version of the repository wherever you wish.
-2. Open the directory of the extracted repository, which should be called "rizzless-music-guide-main".
+2. Open the directory of the extracted repository, which should be called "basic-music-guide-main".
 3. On Windows, right click on an open space and click the option "Open in Terminal".
 4. Run the following command: ```py -m venv tutorial_env```. You can replace the ```tutorial_env``` with whatever you
 would like to name the virtual environment. Wait for the command to finish before continuing.
@@ -44,7 +44,7 @@ with the virtual environment name you chose. Once the command is complete, you s
 name within parenthesis to the left of the directory you're in. This indicates the virtual environment is active.
 7. Now that the virtual environment is active, you can install the project's required dependencies by running the 
 ```pip install -r requirements.txt``` command.
-8. Congrats! You can now navigate to "src\Rizzless Music Guide\" and run either ```guide.py``` or ```guideGUI.py``` by 
+8. Congrats! You can now navigate to "src\Basic Music Guide\" and run either ```guide.py``` or ```guideGUI.py``` by 
 right-clicking and opening with Python!
 
 Optionally, you can create shortcuts for either of these files and place them on your desktop or wherever else you would

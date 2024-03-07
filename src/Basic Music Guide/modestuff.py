@@ -34,8 +34,8 @@ ionian_mode_prompt = ('Ionian Mode:\n'
                       'This is 1 of the 3 \'Major\' scale modes and is often considered the 2nd happiest of the\n'
                       'modes, mostly because the 7th degree has a weird dissonance.\n\n')
 
-ionian_mode_contents = namedtuple('ionian_mode_stuff', ('First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth',
-                                                        'Seventh'))
+ionian_mode_contents = namedtuple('ionian_mode_stuff', ('First', 'Second', 'Third', 'Fourth',
+                                                        'Fifth', 'Sixth', 'Seventh'))
 ionian_mode_stuff = ionian_mode_contents(2, 2, 1, 2, 2, 2, 1)
 
 #    Dorian
@@ -59,8 +59,8 @@ dorian_mode_prompt = ('Dorian Mode:\n'
                       'This is 1 of 4 \'minor\' scale modes and can be thought of as the happiest of the \'minor\'\n'
                       'modes.\n\n')
 
-dorian_mode_contents = namedtuple('dorian_mode_stuff', ('First', 'Second', 'FlatThird', 'Fourth', 'Fifth', 'Sixth',
-                                                        'FlatSeventh'))
+dorian_mode_contents = namedtuple('dorian_mode_stuff', ('First', 'Second', 'FlatThird', 'Fourth',
+                                                        'Fifth', 'Sixth', 'FlatSeventh'))
 dorian_mode_stuff = dorian_mode_contents(2, 1, 2, 2, 2, 1, 2)
 
 #    Phrygian
@@ -86,8 +86,8 @@ phrygian_mode_prompt = ('Phrygian Mode:\n'
                         'This is 1 of 4 \'minor\' scale modes and can be thought of as 3rd happiest of the \'minor\'\n'
                         'modes, or the 2nd \'heaviest\'.\n\n')
 
-phrygian_mode_contents = namedtuple('phrygian_mode_stuff', ('First', 'FlatSecond', 'FlatThird', 'Fourth', 'Fifth',
-                                                            'FlatSixth', 'FlatSeventh'))
+phrygian_mode_contents = namedtuple('phrygian_mode_stuff', ('First', 'FlatSecond', 'FlatThird',
+                                                            'Fourth', 'Fifth', 'FlatSixth', 'FlatSeventh'))
 phrygian_mode_stuff = phrygian_mode_contents(1, 2, 2, 2, 1, 2, 2)
 
 #    Lydian
@@ -111,8 +111,8 @@ lydian_mode_prompt = ('Lydian Mode:\n'
                       'because the 4th degree gets augmented into a regular 5th Major degree, which gives it a sense\n'
                       'of urgency and kind of a whimsical vibe.\n\n')
 
-lydian_mode_contents = namedtuple('lydian_mode_stuff', ('First', 'Second', 'Third', 'SharpFourth', 'Fifth',
-                                                        'Sixth', 'Seventh'))
+lydian_mode_contents = namedtuple('lydian_mode_stuff', ('First', 'Second', 'Third', 'SharpFourth',
+                                                        'Fifth', 'Sixth', 'Seventh'))
 lydian_mode_stuff = lydian_mode_contents(2, 2, 2, 1, 2, 2, 1)
 
 #    Mixolydian
@@ -136,8 +136,8 @@ mixolydian_mode_prompt = ('Mixolydian Mode:\n'
                           'This is 1 of the 3 \'Major\' scale modes and is often considered the 3rd happiest mode\n'
                           'because of that smoothed out 7th degree.\n\n')
 
-mixolydian_mode_contents = namedtuple('mixolydian_mode_stuff', ('First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth',
-                                                                'FlatSeventh'))
+mixolydian_mode_contents = namedtuple('mixolydian_mode_stuff', ('First', 'Second', 'Third', 'Fourth',
+                                                                'Fifth', 'Sixth', 'FlatSeventh'))
 mixolydian_mode_stuff = mixolydian_mode_contents(2, 2, 1, 2, 2, 1, 2)
 
 #    Aeolian
@@ -160,8 +160,8 @@ aeolian_mode_prompt = ('Aeolian Mode:\n'
                        'thought of as the 2nd happiest of the \'minor\' modes (similar to how Ionian is the 2nd\n'
                        'happiest of the \'Major\' modes).\n\n')
 
-aeolian_mode_contents = namedtuple('aeolian_mode_stuff', ('First', 'Second', 'FlatThird', 'Fourth', 'Fifth',
-                                                          'FlatSixth', 'FlatSeventh'))
+aeolian_mode_contents = namedtuple('aeolian_mode_stuff', ('First', 'Second', 'FlatThird', 'Fourth',
+                                                          'Fifth', 'FlatSixth', 'FlatSeventh'))
 aeolian_mode_stuff = aeolian_mode_contents(2, 1, 2, 2, 1, 2, 2)
 
 #    Locrian
@@ -184,6 +184,6 @@ locrian_mode_prompt = ('Locrian Mode:\n'
                        'natural or \'perfect\' for the use of a strong cadence. A flattened fifth already completely\n'
                        'removes the strongest possible cadence.\n\n')
 
-locrian_mode_contents = namedtuple('locrian_mode_stuff', ('First', 'FlatSecond', 'FlatThird', 'Fourth', 'FlatFifth',
-                                                          'FlatSixth', 'FlatSeventh'))
+locrian_mode_contents = namedtuple('locrian_mode_stuff', ('First', 'FlatSecond', 'FlatThird',
+                                                          'Fourth', 'FlatFifth', 'FlatSixth', 'FlatSeventh'))
 locrian_mode_stuff = locrian_mode_contents(1, 2, 2, 1, 2, 2, 2)

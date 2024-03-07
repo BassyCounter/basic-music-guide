@@ -7,6 +7,7 @@ import modestuff
 import intervalstuff
 import guide
 
+
 def add_to_review():
     text_box.configure(state='normal')
     if scalestuff.major_scale_prompt in text_box.get('0.0', 'end'):
@@ -179,7 +180,7 @@ ctk.set_default_color_theme('dark-blue')
 
 # App configuration
 app = ctk.CTk()
-app.title('Rizzless Music Guide')
+app.title('Basic Music Guide')
 app.geometry(f'{1200}x{650}')
 # app.iconbitmap()
 
